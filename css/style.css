@@ -1,0 +1,67 @@
+body, html{
+    height: calc(100%-2em);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ,monospace;
+}
+
+body{
+    background-color: white;
+    margin-left: auto;}
+
+#container{
+    background: #4a00fb;
+    background: -moz-linear-gradient(45deg,#4a00fb 0%,#e600ff 100% );
+    background: -webkit-linear-gradient(45deg,#4a00fb 0%,#e600ff 100% );
+    background: linear-gradient(45deg,#4a00fb 0%,#e600ff 100% );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr = '#4a00fb' , endColorstr = '#e600ff');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color: antiquewhite;
+    height: 500px;
+    padding: 50px;
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+li{
+    display: grid;
+    width: 25%;
+    list-style: none;
+    border: black;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+    margin: 10px 15px;
+    background: linear-gradient(45deg,pink 0%,cyan 100%);
+    
+    
+    
+
+}
+a{
+    text-decoration: none;
+ 
+   
+    
+}
+h1 {
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( 25deg , white 0% , rgba(255,255,255,0.9));
+    
+}
+
+
+
