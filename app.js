@@ -6,11 +6,14 @@ app.get('/', function(req,res){
     res.sendFile(_dirname+"/index.html");
 
 });
-app.listen(3000, function(){
-    console.log('listening on server port 3000');
+app.listen(port, function(){
+    //callback
+    //expected on production
+    //-->sending a 200 oK
+    //return error otherwise
 });
-app.get('/task' , function(req , res ){
-    res.end('this is the about page ');
+app.get('--' , function(req , res ){
+    res.end('');
 });
 
 
