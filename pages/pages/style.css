@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    overflow: hidden;
+    height: 100vh;
+    background: url("../images/bg_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+    .center {
+        overflow: hidden;
+        
+        width: 55%;
+        height: 55%;
+        margin-top: 12%;
+        margin-left: 22%;
+        background: radial-gradient(white, red);
+        background-position: center;
+        background: rgba(0,0,0,0.2) ;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        box-shadow: black;
+        padding: 2%;}
+    
+        .center h2 {
+            text-align: center;
+            margin-top: 1%;
+            color: black;
+            font-family: arial;
+        }
+
+            .center img {
+                width: 20%;
+                height: 40%;
+                margin-top: 10%;
+            }
+
+    .data01 {
+            margin-top: -22%;
+            margin-left: 31%;
+    }
+        .data01 label {
+            font-family: times new roman;
+            font-size: 20px;
+        }
+            .data01 input[type=text], select {
+              width: 68%;
+              padding: 12px 1px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+
+            .data01 input[type=password], select {
+                 width: 68%;
+              padding: 12px 1px;
+              margin: 8px 0;
+              display: inline-block;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+            }
+
+            .data01 input[type=submit] {
+                width: 68%;
+                text-align: center;
+                padding: 8px 1px;
+                cursor: pointer;
+                background: #4CAF50;
+                border: none;
+                border-radius: 4px;
+                color: white;
+            }
+
+                .data01 input[type=submit]:hover {
+                    background: blue;
+                }
+
+                .icon {
+                    color: black;
+                    background: rgba(none)
+                    
+
+                }
